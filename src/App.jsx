@@ -1,5 +1,9 @@
-import React from 'react'
+import React from 'react';
+import {Routes, Route} from 'react-router-dom';
 
+// My imports
+import Home from './pages/Home';
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <div
@@ -8,13 +12,9 @@ function App() {
       min-h-[100dvh] w-full overflow-x-hidden
       '
     >
-      <div className='min-h-[100dvh] flex items-center justify-center text-4xl'>
-        App
-      </div>
-
-      <div className='min-h-[100dvh] bg-amber-200 text-black flex items-center justify-center text-4xl'>
-        Yoloo
-      </div>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+      </Routes>
     </div>
   )
 }
