@@ -20,7 +20,7 @@ export default function CustomCursor() {
 
       gsap.to(big, {
         x: e.clientX,
-        y: e.clientY,
+        y: e.clientY - 1,
         duration: 0.45,
         ease: "power3.out",
       });

@@ -8,7 +8,7 @@ import Navbar from './components/layout/Navbar';
 import CustomCursor from './components/layout/CustomCursor';
 function App() {
   return (
-    <div className='relative bg-white text-black'>
+    <div className='relative bg-white text-black font-poppins'>
     <CustomCursor />
     <Navbar/>
     <div
