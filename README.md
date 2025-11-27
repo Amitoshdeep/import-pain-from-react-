@@ -1,4 +1,3 @@
-````md
 # `import { pain } from 'react'`
 
 > A cursed-but-useful React + Vite + Tailwind starter. Built for speed, suffering, and spontaneous creativity. Handle with care.
@@ -73,5 +72,3 @@ PRs accepted. Bugs accepted. Rage quits accepted (open an issue if you need a th
 ## License
 
 MIT — steal it, ship it, improve it, suffer less.
-
----
