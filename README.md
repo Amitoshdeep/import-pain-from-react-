@@ -25,7 +25,7 @@ It comes opinionated with modern versions of React, Tailwind v4, React Router, a
 
 ```bash
 # clone
-git clone https://github.com/Amitoshdeep/import-pain-from-react-.git
+git clone https://github.com/Amitoshdeep/React-starter-kit.git
 cd import--pain-from-react
 
 # install
